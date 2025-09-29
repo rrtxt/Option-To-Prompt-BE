@@ -204,26 +204,6 @@ curl -X POST "http://localhost:8000/api/v1/convert/validate" \
 }
 ```
 
-### Batch Processing
-```bash
-curl -X POST "http://localhost:8000/api/v1/convert/batch" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "requests": [
-      {
-        "platform_id": 1,
-        "action_id": 1,
-        "variables": {"content": "Post 1", "hashtags": "#first"}
-      },
-      {
-        "platform_id": 2,
-        "action_id": 3,
-        "variables": {"message": "Hello connection!", "recipient": "john.doe"}
-      }
-    ]
-  }'
-```
-
 ### Python Client Example
 ```python
 import requests
