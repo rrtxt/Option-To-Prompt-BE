@@ -1,0 +1,22 @@
+# FastAPI and ASGI server
+fastapi
+uvicorn[standard]
+
+# Database and ORM
+sqlmodel
+psycopg2-binary
+alembic
+
+# Template engine for prompt generation
+jinja2
+
+# Request handling
+python-multipart
+
+# Environment configuration
+python-dotenv
+pydantic-settings
+
+# Core dependencies
+pydantic
+
